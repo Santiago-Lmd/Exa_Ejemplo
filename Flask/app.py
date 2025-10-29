@@ -1,3 +1,6 @@
+#Martinez Lamadrid Santiago Ivan
+#4A
+#29/10/2025
 from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
