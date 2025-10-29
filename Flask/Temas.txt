@@ -1,0 +1,30 @@
+Temas a estudiar a la examen:
+-configuración básica
+-ssh
+-vlan
+-intervlans
+-enrutamiento
+-ospf v2
+-ospf v3
+-Cual es el algoritmo de ospf
+-bases de datos de ospf
+-paquetes - Hello, 
+-lsa
+-estados 
+-multi punto, punto a punto
+-DR
+-BDR
+-DROTHER
+-3 modos de ospf (Red, ip host y int fisica)
+-distancia administrativa de OSPF
+-----------------------
+IPv6
+ipv6 unicast-routing
+ipv6 router ospf 10
+router ID 1.1.1.1
+passive int (la ip que baja al switch) <-- no manda paquetes de hello hacia abajo
+int s0/0/0
+ipv6 route ospf 10 area 0
+sh ip route (muestra las iniciales del tipo de red configuradas)
+------------------------------
+-Direccionamiento = asignación de red, ultimo host y calculo de saltos
